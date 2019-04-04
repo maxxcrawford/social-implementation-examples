@@ -39,7 +39,7 @@ The following outline the various "actions" Facebook is taking through each impl
 + [Facebook Documentation](https://developers.facebook.com/docs/facebook-login/)
 + [Example](/facebook-implementation-examples/examples/login)
 
-### Profile Page
+### Page Plugin
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/page-plugin/)
 + [Example](/facebook-implementation-examples/examples/page-plugin)
