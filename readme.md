@@ -34,3 +34,7 @@ https://developers.facebook.com/docs/plugins/like-button
 ### Advertising
 
 ### Research/Survey
+
+## To-do
+
+- [ ] Review [StackOverflow(https://stackoverflow.com/questions/55177719/rsa-encrypt-with-public-key-and-lockbox3)'s method
