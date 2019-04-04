@@ -21,23 +21,28 @@ The following outline the various "actions" Facebook is taking through each impl
 
 #### Share Dialog (No `connect.facebook.net/*`  needed)
 
-+ [Documentations](https://developers.facebook.com/docs/sharing/reference/share-dialog)
++ [Facebook Documentation](https://developers.facebook.com/docs/sharing/reference/share-dialog)
 + [Example](/facebook-implementation-examples/examples/share-dialog)
 
 #### Share Button
 
-+ [Documentation](https://developers.facebook.com/docs/plugins/share-button)
++ [Facebook Documentation](https://developers.facebook.com/docs/plugins/share-button)
 + [Example](/facebook-implementation-examples/examples/share-button)
 
 ### Like Button
 
-+ [Documentation](https://developers.facebook.com/docs/plugins/like-button)
++ [Facebook Documentation](https://developers.facebook.com/docs/plugins/like-button)
 + [Example](/facebook-implementation-examples/examples/like-button)
 
 ### Authentication (Single-sign On)
 
-+ [Documentation](https://developers.facebook.com/docs/facebook-login/)
++ [Facebook Documentation](https://developers.facebook.com/docs/facebook-login/)
 + [Example](/facebook-implementation-examples/examples/login)
+
+### Profile Page
+
++ [Facebook Documentation](https://developers.facebook.com/docs/plugins/page-plugin/)
++ [Example](/facebook-implementation-examples/examples/page-plugin)
 
 <!-- #### Post
 
