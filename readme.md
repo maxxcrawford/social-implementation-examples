@@ -2,14 +2,16 @@
 
 ## Summary
 
+This repo describes and demonstrates the different ways Facebook SDK is implimented. 
+
 ## URLs
 
 + https://www.facebook.com/connect/ (Login)
-+ 
++ https://www.facebook.com/tr (Analytics)
 
 ## Scripts
 
-`Connect.Facebook.net` / JavaScript SDK
++ https://connect.facebook.net/en_US/sdk.js
 
 ## Intention Implimentation Types
 
@@ -17,27 +19,31 @@ The following outline the various "actions" Facebook is taking through each impl
 
 ### Share
 
-#### Share Dialog (No Connect.Facebook.net needed)
+#### Share Dialog (No `connect.facebook.net/*`  needed)
 
-https://developers.facebook.com/docs/sharing/reference/share-dialog
++ [Documentations](https://developers.facebook.com/docs/sharing/reference/share-dialog)
++ [Example](/examples/share-dialog)
 
 #### Share Button
 
-https://developers.facebook.com/docs/plugins/share-button
++ [Documentation](https://developers.facebook.com/docs/plugins/share-button)
++ [Example](/examples/share-button)
 
 ### Like Button
 
-https://developers.facebook.com/docs/plugins/like-button
++ [Documentation](https://developers.facebook.com/docs/plugins/like-button)
++ [Example](/examples/like-button)
 
 ### Authentication (Single-sign On)
 
++ [Documentation](https://developers.facebook.com/docs/facebook-login/)
++ [Example](/examples/login)
 
-
-#### Post
+<!-- #### Post
 
 ### Advertising
 
-### Research/Survey
+### Research/Survey -->
 
 ## To-do
 
