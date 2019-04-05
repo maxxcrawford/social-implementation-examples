@@ -44,6 +44,18 @@ The following outline the various "actions" Facebook is taking through each impl
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/page-plugin/)
 + [Example](/facebook-implementation-examples/examples/page-plugin)
 
+### Embedded Media
+
+#### Embedded Video
+
++ [Facebook Documentation](https://developers.facebook.com/docs/plugins/embedded-video-player/)
++ [Example](/facebook-implementation-examples/examples/embedded-video)
+
+#### Embedded Post
+
++ [Facebook Documentation](https://developers.facebook.com/docs/plugins/embedded-posts)
++ [Example](/facebook-implementation-examples/examples/embedded-video)
+
 <!-- #### Post
 
 ### Advertising
