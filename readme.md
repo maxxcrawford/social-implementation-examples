@@ -54,7 +54,7 @@ The following outline the various "actions" Facebook is taking through each impl
 #### Embedded Post
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/embedded-posts)
-+ [Example](/facebook-implementation-examples/examples/embedded-video)
++ [Example](/facebook-implementation-examples/examples/embedded-post)
 
 <!-- #### Post
 
