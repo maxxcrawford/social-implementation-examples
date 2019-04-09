@@ -19,7 +19,8 @@
 
 <body>
     <div id="fb-root"></div>
-    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1"></script>
+    <!-- <script type="text/javascript" async defer src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1"></script> -->
+    <!-- <script type="text/javascript" async defer src="sdk.js"></script> -->
     <!-- Put HTML Here -->
 		<main>
 			<div class="container max-w-sm my-24 mx-auto">
@@ -33,11 +34,19 @@
 		</main>
     <script type="text/javascript">
       console.log('test');
+      // setTimeout(function(){
+      //   var httpRequest = new XMLHttpRequest()
+      //   httpRequest.open('OPTIONS', "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1")
+      //   httpRequest.open('GET', "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1")
+      //   httpRequest.send()
+      // }, 2000);
       setTimeout(function(){
-        var httpRequest = new XMLHttpRequest()
-        httpRequest.open('GET', "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1")
-        httpRequest.send()
-      }, 2000);
+        console.log('round2');
+        const fbConnectScriptTag = document.createElement('script');
+         fbConnectScriptTag.setAttribute('src', 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1');
+         document.head.appendChild(fbConnectScriptTag);
+       }, 4000);
+
     </script>
 </body>
 
