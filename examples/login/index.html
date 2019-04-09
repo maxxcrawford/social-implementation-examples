@@ -3,25 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FB Examples Login</title>
+    <title>FB Examples - Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-    <style media="screen">
-      .fb-login-button {
-        height: 50px;
-        background: gray;
-        position: relative;
-      }
-    </style>
 </head>
 
 <body>
     <div id="fb-root"></div>
-    <!-- <script type="text/javascript" async defer src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1"></script> -->
-    <!-- <script type="text/javascript" async defer src="sdk.js"></script> -->
-    <!-- Put HTML Here -->
 		<main>
 			<div class="container max-w-sm my-24 mx-auto">
 				<h1 class="mb-2">Login</h1>
@@ -33,19 +23,11 @@
 			</div>
 		</main>
     <script type="text/javascript">
-      console.log('test');
-      // setTimeout(function(){
-      //   var httpRequest = new XMLHttpRequest()
-      //   httpRequest.open('OPTIONS', "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1")
-      //   httpRequest.open('GET', "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1")
-      //   httpRequest.send()
-      // }, 2000);
       setTimeout(function(){
-        console.log('round2');
         const fbConnectScriptTag = document.createElement('script');
          fbConnectScriptTag.setAttribute('src', 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1');
          document.head.appendChild(fbConnectScriptTag);
-       }, 4000);
+       }, 500);
 
     </script>
 </body>
