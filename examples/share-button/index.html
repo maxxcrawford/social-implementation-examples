@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <title>FB Examples – Share Button</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<head>
+		<meta charset="utf-8">
+		<title>FB Examples – Share Button</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-</head>
+	</head>
 
-<body>
-    <div id="fb-root"></div>
-    <script async defer   src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1"></script>
-    <!-- Put HTML Here -->
+	<body>
+		<div id="fb-root"></div>
+		<!-- Put HTML Here -->
 		<main>
 			<div class="container max-w-sm my-24 mx-auto">
 				<h1 class="mb-2">Share Button</h1>
 				<p class="mb-4"><a href="https://developers.facebook.com/docs/plugins/share-button">Read Documentation</a> </p>
-				<img class="block mx-auto mb-4 " src='https://placehold.it/1200x600/4B72BB/FFFFFF'/>
-				<p class="mb-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<img class="block mx-auto mb-4 " src='https://placehold.it/1200x600/4B72BB/FFFFFF' />
+				<p class="mb-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <div class="fb-share-button" data-href="https://maxxcrawford.github.io" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmaxxcrawford.github.io%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-      </div>
+			<table class="table-auto">
+				<tr>
+					<th class="py-2">Layout</th>
+					<th class="py-2">Size</th>
+					<th class="py-2">Example</th>
+				</tr>
+				<tr class="border">
+					<td class="border-r text-center px-4 text-sm">button</td>
+					<td class="border-r text-center px-4 text-sm">small</td>
+					<td class="py-2 px-4 border-l">
+						<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+					</td>
+				</tr>
+				<tr class="border">
+					<td class="border-r text-center px-4 text-sm">button</td>
+					<td class="border-r text-center px-4 text-sm">large</td>
+					<td class="py-2 px-4 border-l">
+						<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+					</td>
+				</tr>
+			</table>
+
 		</main>
-</body>
+		<script type="text/javascript">
+			setTimeout(function() {
+				const fbConnectScriptTag = document.createElement('script');
+				fbConnectScriptTag.setAttribute('src', 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1');
+				document.head.appendChild(fbConnectScriptTag);
+			}, 10);
+		</script>
+	</body>
 
 </html>
