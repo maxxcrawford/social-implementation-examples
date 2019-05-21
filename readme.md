@@ -1,4 +1,4 @@
-# Facebook Implimentation Methods
+# Social Implimentation Methods
 
 ## Summary
 
@@ -8,6 +8,7 @@ Social Networks
 
 1. [Facebook](#facebook)
 2. [Twitter](#twitter)
+3. [LinkedIn](#linkedin)
 
 ## Facebook
 
@@ -88,6 +89,26 @@ The following outline the various "actions" Facebook is taking through each impl
 
 + [Twitter Documentation](https://developer.twitter.com/en/docs/twitter-for-websites/log-in-with-twitter/guides/browser-sign-in-flow)
 + [Example](/social-implementation-examples/twitter/tweet)
+
+## LinkedIn
+
+<!-- ### URLs
+
++ https://www.facebook.com/connect/ (SSO/Login)
++ https://www.facebook.com/tr (Analytics) -->
+
+### Scripts
+
++ https://platform.linkedin.com/in.js
+
+### Intention Implimentation Types
+
+The following outline the various "actions" Facebook is taking through each implimentation.
+
+#### Share
+
++ [Twitter Documentation](https://docs.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins/share-plugin)
++ [Example](/social-implementation-examples/linkedin/share)
 
 ## To-do
 
