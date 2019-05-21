@@ -2,56 +2,63 @@
 
 ## Summary
 
-This repo describes and demonstrates the different ways Facebook SDK is implimented.
+This repo describes and demonstrates the different ways social networks are embedded into websites.
 
-## URLs
+Social Networks
+
+1. [Facebook](#facebook)
+2. [Twitter](#twitter)
+
+## Facebook
+
+### URLs
 
 + https://www.facebook.com/connect/ (Login)
 + https://www.facebook.com/tr (Analytics)
 
-## Scripts
+### Scripts
 
 + https://connect.facebook.net/en_US/sdk.js
 
-## Intention Implimentation Types
+### Intention Implimentation Types
 
 The following outline the various "actions" Facebook is taking through each implimentation.
 
-### Share
+#### Share
 
-#### Share Dialog (No `connect.facebook.net/*`  needed)
+##### Share Dialog (No `connect.facebook.net/*`  needed)
 
 + [Facebook Documentation](https://developers.facebook.com/docs/sharing/reference/share-dialog)
 + [Example](/facebook-implementation-examples/examples/share-dialog)
 
-#### Share Button
+##### Share Button
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/share-button)
 + [Example](/facebook-implementation-examples/examples/share-button)
 
-### Like Button
+#### Like Button
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/like-button)
 + [Example](/facebook-implementation-examples/examples/like-button)
 
-### Authentication (Single-sign On)
+#### Authentication (Single-sign On)
 
 + [Facebook Documentation](https://developers.facebook.com/docs/facebook-login/)
 + [Example](/facebook-implementation-examples/examples/login)
 
-### Page Plugin
+#### Page Plugin
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/page-plugin/)
 + [Example](/facebook-implementation-examples/examples/page-plugin)
 
-### Embedded Media
+#### Embedded Media
 
-#### Embedded Video
+##### Embedded Video
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/embedded-video-player/)
 + [Example](/facebook-implementation-examples/examples/embedded-video)
 
-#### Embedded Post
+##### Embedded Post
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/embedded-posts)
 + [Example](/facebook-implementation-examples/examples/embedded-post)
@@ -61,6 +68,8 @@ The following outline the various "actions" Facebook is taking through each impl
 ### Advertising
 
 ### Research/Survey -->
+
+## Twitter
 
 ## To-do
 
