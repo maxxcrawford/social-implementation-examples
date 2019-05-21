@@ -1,4 +1,4 @@
-# Social Implimentation Methods
+# Social Implementation Methods
 
 ## Summary
 
