@@ -13,7 +13,7 @@ Social Networks
 
 ### URLs
 
-+ https://www.facebook.com/connect/ (Login)
++ https://www.facebook.com/connect/ (SSO/Login)
 + https://www.facebook.com/tr (Analytics)
 
 ### Scripts
@@ -29,39 +29,39 @@ The following outline the various "actions" Facebook is taking through each impl
 ##### Share Dialog (No `connect.facebook.net/*`  needed)
 
 + [Facebook Documentation](https://developers.facebook.com/docs/sharing/reference/share-dialog)
-+ [Example](/facebook-implementation-examples/examples/share-dialog)
++ [Example](/social-examples/facebook/share-dialog)
 
 ##### Share Button
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/share-button)
-+ [Example](/facebook-implementation-examples/examples/share-button)
++ [Example](/social-examples/facebook/share-button)
 
 #### Like Button
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/like-button)
-+ [Example](/facebook-implementation-examples/examples/like-button)
++ [Example](/social-examples/facebook/like-button)
 
 #### Authentication (Single-sign On)
 
 + [Facebook Documentation](https://developers.facebook.com/docs/facebook-login/)
-+ [Example](/facebook-implementation-examples/examples/login)
++ [Example](/social-examples/facebook/login)
 
 #### Page Plugin
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/page-plugin/)
-+ [Example](/facebook-implementation-examples/examples/page-plugin)
++ [Example](/social-examples/facebook/page-plugin)
 
 #### Embedded Media
 
 ##### Embedded Video
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/embedded-video-player/)
-+ [Example](/facebook-implementation-examples/examples/embedded-video)
++ [Example](/social-examples/facebook/embedded-video)
 
 ##### Embedded Post
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/embedded-posts)
-+ [Example](/facebook-implementation-examples/examples/embedded-post)
++ [Example](/social-examples/facebook/embedded-post)
 
 <!-- #### Post
 

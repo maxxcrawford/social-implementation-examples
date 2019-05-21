@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Twitter Examples - Like</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="fb-root"></div>
+		<main>
+			<div class="container max-w-lg my-24 mx-auto">
+				<h1 class="mb-2 block">Twitter - Tweet</h1>
+				<a href="/social-implementation-examples/" class="bg-grey-dark hover:bg-grey text-white text-xs font-bold py-2 px-4 rounded no-underline mb-4 inline-block" href="#">&laquo; back</a>
+				<a href="https://developer.twitter.com/en/docs/twitter-for-websites/log-in-with-twitter/guides/browser-sign-in-flow" class="bg-purple-dark hover:bg-purple text-white text-xs font-bold py-2 px-4 rounded no-underline mb-4 inline-block">Read
+					Documentation</a>
+
+				<table class="table-auto">
+					<tr>
+						<th class="py-2">Button Type</th>
+						<!-- <th class="py-2">Action</th> -->
+						<th class="py-2">Size</th>
+						<!-- <th class="py-2">Share</th> -->
+						<th class="py-2">Example</th>
+						<th class="py-2">Live</th>
+					</tr>
+					<!-- <tr class="border">
+            <td class="border-r text-center px-4 text-sm">LAYOUT_HERE</td>
+            <td class="border-r text-center px-4 text-sm">ACTION_HERE</td>
+            <td class="border-r text-center px-4 text-sm">SIZE_HERE</td>
+            <td class="text-center px-4 text-sm">SHARE_HERE</td>
+            <td class="pt-4 py-2">CODE_HERE</td>
+          </tr> -->
+					<tr class="border">
+						<!-- <td class="border-r text-center px-4 text-sm">LAYOUT_HERE</td> -->
+						<td class="border-r text-center px-4 text-sm">share</td>
+						<td class="border-r text-center px-4 text-sm">default</td>
+						<!-- <td class="text-center px-4 text-sm">SHARE_HERE</td> -->
+						<td class="p-4 border-l"><img class="block w-auto" src="../img/share_button_default.png" /></td>
+						<td class="p-4 border-l">
+							<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world">Tweet</a>
+						</td>
+					</tr>
+					<tr class="border">
+						<!-- <td class="border-r text-center px-4 text-sm">LAYOUT_HERE</td> -->
+						<td class="border-r text-center px-4 text-sm">share</td>
+						<td class="border-r text-center px-4 text-sm">large</td>
+						<!-- <td class="text-center px-4 text-sm">SHARE_HERE</td> -->
+						<td class="p-4 border-l"><img class="block w-auto" src="../img/share_button_large.png" /></td>
+						<td class="p-4 border-l">
+							<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" data-size="large">Tweet</a>
+						</td>
+					</tr>
+
+				</table>
+
+
+
+
+
+
+
+
+			</div>
+		</main>
+		<script type="text/javascript">
+			window.twttr = (function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0],
+					t = window.twttr || {};
+				if (d.getElementById(id)) return t;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "https://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js, fjs);
+
+				t._e = [];
+				t.ready = function(f) {
+					t._e.push(f);
+				};
+
+				return t;
+			}(document, "script", "twitter-wjs"));
+
+			// setTimeout(function(){
+			//   const fbConnectScriptTag = document.createElement('script');
+			//    fbConnectScriptTag.setAttribute('src', 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1255771417922273&autoLogAppEvents=1');
+			//    document.head.appendChild(fbConnectScriptTag);
+			//  }, 10);
+		</script>
+	</body>
+
+</html>
