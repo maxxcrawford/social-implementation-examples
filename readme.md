@@ -108,12 +108,12 @@ The following outline the various "actions" Facebook is taking through each impl
 
 #### Share
 
-+ [Twitter Documentation](https://docs.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins/share-plugin)
++ [LinkedIn Documentation](https://docs.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins/share-plugin)
 + [Example](/social-implementation-examples/linkedin/share)
 
-#### Follow Company Profile
+#### Follow Company
 
-+ [Twitter Documentation](https://docs.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins/follow-company-plugin)
++ [LinkedIn Documentation](https://docs.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins/follow-company-plugin)
 + [Example](/social-implementation-examples/linkedin/follow)
 
 ## To-do
