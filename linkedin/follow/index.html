@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>LinkedIn Examples - Follow Company Profile</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="fb-root"></div>
+		<main>
+			<div class="container max-w-lg my-24 mx-auto">
+				<h1 class="mb-2 block">LinkedIn - Follow Company Profile</h1>
+				<a href="/social-implementation-examples/" class="bg-grey-dark hover:bg-grey text-white text-xs font-bold py-2 px-4 rounded no-underline mb-4 inline-block" href="#">&laquo; back</a>
+				<a href="https://docs.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins/share-plugin" class="bg-blue-dark hover:bg-blue text-white text-xs font-bold py-2 px-4 rounded no-underline mb-4 inline-block">Read
+					Documentation</a>
+
+				<table class="table-auto">
+					<tr>
+						<th class="py-2">Button Type</th>
+						<!-- <th class="py-2">Action</th> -->
+						<th class="py-2">Size</th>
+						<!-- <th class="py-2">Share</th> -->
+						<th class="py-2">Example</th>
+						<th class="py-2">Live</th>
+					</tr>
+					<!-- <tr class="border">
+            <td class="border-r text-center px-4 text-sm">LAYOUT_HERE</td>
+            <td class="border-r text-center px-4 text-sm">ACTION_HERE</td>
+            <td class="border-r text-center px-4 text-sm">SIZE_HERE</td>
+            <td class="text-center px-4 text-sm">SHARE_HERE</td>
+            <td class="pt-4 py-2">CODE_HERE</td>
+          </tr> -->
+					<tr class="border">
+						<!-- <td class="border-r text-center px-4 text-sm">LAYOUT_HERE</td> -->
+						<td class="border-r text-center px-4 text-sm">share</td>
+						<td class="border-r text-center px-4 text-sm">default</td>
+						<!-- <td class="text-center px-4 text-sm">SHARE_HERE</td> -->
+						<td class="p-4 border-l"><img class="block w-auto" src="../img/share_default.png" /></td>
+						<td class="p-4 border-l">
+							<script type="IN/FollowCompany" data-id="1337" data-counter="bottom"></script>
+						</td>
+					</tr>
+
+				</table>
+			</div>
+		</main>
+		<script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+	</body>
+
+</html>
