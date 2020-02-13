@@ -38,6 +38,10 @@ The following outline the various "actions" Facebook is taking through each impl
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/share-button)
 + [Example](/social-implementation-examples/facebook/share-button)
 
+##### Mixed Share Button
+
++ [Example](/social-implementation-examples/facebook/mixed-share)
+
 #### Like Button
 
 + [Facebook Documentation](https://developers.facebook.com/docs/plugins/like-button)
