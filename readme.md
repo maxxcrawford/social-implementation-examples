@@ -8,8 +8,9 @@ This repo describes and demonstrates the different ways social networks are embe
 Social Networks
 
 1. [Facebook](#facebook)
-2. [Twitter](#twitter)
-3. [LinkedIn](#linkedin)
+1. [Instagram](#facebook)
+1. [Twitter](#twitter)
+1. [LinkedIn](#linkedin)
 
 ## Facebook
 
@@ -74,6 +75,18 @@ The following outline the various "actions" Facebook is taking through each impl
 ### Advertising
 
 ### Research/Survey -->
+
+## Instagram
+
+### Intention Implimentation Types
+
+The following outline the various "actions" Instagram is taking through each implimentation.
+
+##### Embedded Post
+
++ [Facebook Documentation](https://developers.facebook.com/docs/instagram/oembed/)
++ [Example](/social-implementation-examples/instagram/embedded-post)
+
 
 ## Twitter
 
